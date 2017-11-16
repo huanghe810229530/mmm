@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F09D3D5E0D86AF80562C612 /* Pods_HuaXia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14027E65C16F3FF2892BFE37 /* Pods_HuaXia.framework */; };
+		DB3D5F2A1FBD3A0B00DC53EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3D5F291FBD3A0B00DC53EC /* AppDelegate.swift */; };
+		DB3D5F2C1FBD3A0B00DC53EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3D5F2B1FBD3A0B00DC53EC /* ViewController.swift */; };
+		DB3D5F2F1FBD3A0B00DC53EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3D5F2D1FBD3A0B00DC53EC /* Main.storyboard */; };
+		DB3D5F311FBD3A0B00DC53EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3D5F301FBD3A0B00DC53EC /* Assets.xcassets */; };
+		DB3D5F341FBD3A0B00DC53EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3D5F321FBD3A0B00DC53EC /* LaunchScreen.storyboard */; };
+		DB3D5F3F1FBD3A0B00DC53EC /* HuaXiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3D5F3E1FBD3A0B00DC53EC /* HuaXiaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB3D5F3B1FBD3A0B00DC53EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB3D5F1E1FBD3A0B00DC53EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3D5F251FBD3A0B00DC53EC;
+			remoteInfo = HuaXia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03AA0450014A83B9A0D44EEB /* Pods-HuaXia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaXia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuaXia/Pods-HuaXia.debug.xcconfig"; sourceTree = "<group>"; };
+		14027E65C16F3FF2892BFE37 /* Pods_HuaXia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuaXia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E1CC42CBCEE9CC7136D8D53 /* Pods-HuaXia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuaXia.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuaXia/Pods-HuaXia.release.xcconfig"; sourceTree = "<group>"; };
+		DB3D5F261FBD3A0B00DC53EC /* HuaXia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuaXia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3D5F291FBD3A0B00DC53EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB3D5F2B1FBD3A0B00DC53EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB3D5F2E1FBD3A0B00DC53EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB3D5F301FBD3A0B00DC53EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB3D5F331FBD3A0B00DC53EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB3D5F351FBD3A0B00DC53EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3D5F3A1FBD3A0B00DC53EC /* HuaXiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuaXiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3D5F3E1FBD3A0B00DC53EC /* HuaXiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuaXiaTests.swift; sourceTree = "<group>"; };
+		DB3D5F401FBD3A0B00DC53EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB3D5F231FBD3A0B00DC53EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F09D3D5E0D86AF80562C612 /* Pods_HuaXia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3D5F371FBD3A0B00DC53EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82005CBEB4C8C7AA16DBCD2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14027E65C16F3FF2892BFE37 /* Pods_HuaXia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		920C254547F6339A33892BFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03AA0450014A83B9A0D44EEB /* Pods-HuaXia.debug.xcconfig */,
+				1E1CC42CBCEE9CC7136D8D53 /* Pods-HuaXia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB3D5F1D1FBD3A0B00DC53EC = {
+			isa = PBXGroup;
+			children = (
+				DB3D5F281FBD3A0B00DC53EC /* HuaXia */,
+				DB3D5F3D1FBD3A0B00DC53EC /* HuaXiaTests */,
+				DB3D5F271FBD3A0B00DC53EC /* Products */,
+				920C254547F6339A33892BFA /* Pods */,
+				82005CBEB4C8C7AA16DBCD2A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB3D5F271FBD3A0B00DC53EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB3D5F261FBD3A0B00DC53EC /* HuaXia.app */,
+				DB3D5F3A1FBD3A0B00DC53EC /* HuaXiaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB3D5F281FBD3A0B00DC53EC /* HuaXia */ = {
+			isa = PBXGroup;
+			children = (
+				DB3D5F291FBD3A0B00DC53EC /* AppDelegate.swift */,
+				DB3D5F2B1FBD3A0B00DC53EC /* ViewController.swift */,
+				DB3D5F2D1FBD3A0B00DC53EC /* Main.storyboard */,
+				DB3D5F301FBD3A0B00DC53EC /* Assets.xcassets */,
+				DB3D5F321FBD3A0B00DC53EC /* LaunchScreen.storyboard */,
+				DB3D5F351FBD3A0B00DC53EC /* Info.plist */,
+			);
+			path = HuaXia;
+			sourceTree = "<group>";
+		};
+		DB3D5F3D1FBD3A0B00DC53EC /* HuaXiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3D5F3E1FBD3A0B00DC53EC /* HuaXiaTests.swift */,
+				DB3D5F401FBD3A0B00DC53EC /* Info.plist */,
+			);
+			path = HuaXiaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB3D5F251FBD3A0B00DC53EC /* HuaXia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3D5F431FBD3A0B00DC53EC /* Build configuration list for PBXNativeTarget "HuaXia" */;
+			buildPhases = (
+				010942B77DF5837ECCE704F0 /* [CP] Check Pods Manifest.lock */,
+				DB3D5F221FBD3A0B00DC53EC /* Sources */,
+				DB3D5F231FBD3A0B00DC53EC /* Frameworks */,
+				DB3D5F241FBD3A0B00DC53EC /* Resources */,
+				40E5777962C6C3756FC8B4CF /* [CP] Embed Pods Frameworks */,
+				6331CBDD824274AC4B7A0D0D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuaXia;
+			productName = HuaXia;
+			productReference = DB3D5F261FBD3A0B00DC53EC /* HuaXia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB3D5F391FBD3A0B00DC53EC /* HuaXiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3D5F461FBD3A0B00DC53EC /* Build configuration list for PBXNativeTarget "HuaXiaTests" */;
+			buildPhases = (
+				DB3D5F361FBD3A0B00DC53EC /* Sources */,
+				DB3D5F371FBD3A0B00DC53EC /* Frameworks */,
+				DB3D5F381FBD3A0B00DC53EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3D5F3C1FBD3A0B00DC53EC /* PBXTargetDependency */,
+			);
+			name = HuaXiaTests;
+			productName = HuaXiaTests;
+			productReference = DB3D5F3A1FBD3A0B00DC53EC /* HuaXiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB3D5F1E1FBD3A0B00DC53EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = HCFDATA;
+				TargetAttributes = {
+					DB3D5F251FBD3A0B00DC53EC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DB3D5F391FBD3A0B00DC53EC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB3D5F251FBD3A0B00DC53EC;
+					};
+				};
+			};
+			buildConfigurationList = DB3D5F211FBD3A0B00DC53EC /* Build configuration list for PBXProject "HuaXia" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB3D5F1D1FBD3A0B00DC53EC;
+			productRefGroup = DB3D5F271FBD3A0B00DC53EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB3D5F251FBD3A0B00DC53EC /* HuaXia */,
+				DB3D5F391FBD3A0B00DC53EC /* HuaXiaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB3D5F241FBD3A0B00DC53EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3D5F341FBD3A0B00DC53EC /* LaunchScreen.storyboard in Resources */,
+				DB3D5F311FBD3A0B00DC53EC /* Assets.xcassets in Resources */,
+				DB3D5F2F1FBD3A0B00DC53EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3D5F381FBD3A0B00DC53EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		010942B77DF5837ECCE704F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuaXia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40E5777962C6C3756FC8B4CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HuaXia/Pods-HuaXia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuaXia/Pods-HuaXia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6331CBDD824274AC4B7A0D0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuaXia/Pods-HuaXia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB3D5F221FBD3A0B00DC53EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3D5F2C1FBD3A0B00DC53EC /* ViewController.swift in Sources */,
+				DB3D5F2A1FBD3A0B00DC53EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3D5F361FBD3A0B00DC53EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3D5F3F1FBD3A0B00DC53EC /* HuaXiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB3D5F3C1FBD3A0B00DC53EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3D5F251FBD3A0B00DC53EC /* HuaXia */;
+			targetProxy = DB3D5F3B1FBD3A0B00DC53EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB3D5F2D1FBD3A0B00DC53EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3D5F2E1FBD3A0B00DC53EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB3D5F321FBD3A0B00DC53EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3D5F331FBD3A0B00DC53EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB3D5F411FBD3A0B00DC53EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB3D5F421FBD3A0B00DC53EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB3D5F441FBD3A0B00DC53EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AA0450014A83B9A0D44EEB /* Pods-HuaXia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4T3822GUK;
+				INFOPLIST_FILE = HuaXia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcfdata.HuaXia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB3D5F451FBD3A0B00DC53EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E1CC42CBCEE9CC7136D8D53 /* Pods-HuaXia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4T3822GUK;
+				INFOPLIST_FILE = HuaXia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcfdata.HuaXia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB3D5F471FBD3A0B00DC53EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4T3822GUK;
+				INFOPLIST_FILE = HuaXiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcfdata.HuaXiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuaXia.app/HuaXia";
+			};
+			name = Debug;
+		};
+		DB3D5F481FBD3A0B00DC53EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4T3822GUK;
+				INFOPLIST_FILE = HuaXiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcfdata.HuaXiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuaXia.app/HuaXia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB3D5F211FBD3A0B00DC53EC /* Build configuration list for PBXProject "HuaXia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3D5F411FBD3A0B00DC53EC /* Debug */,
+				DB3D5F421FBD3A0B00DC53EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3D5F431FBD3A0B00DC53EC /* Build configuration list for PBXNativeTarget "HuaXia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3D5F441FBD3A0B00DC53EC /* Debug */,
+				DB3D5F451FBD3A0B00DC53EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3D5F461FBD3A0B00DC53EC /* Build configuration list for PBXNativeTarget "HuaXiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3D5F471FBD3A0B00DC53EC /* Debug */,
+				DB3D5F481FBD3A0B00DC53EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB3D5F1E1FBD3A0B00DC53EC /* Project object */;
+}
