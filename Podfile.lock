@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (4.5.0)
   - IQKeyboardManager (4.0.10)
+  - MobilePlayer (1.2.0)
   - ObjcExceptionBridging (1.0.1):
     - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
   - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
@@ -8,6 +9,9 @@ PODS:
     - RxSwift (~> 4.0)
   - RxSwift (4.0.0)
   - SnapKit (4.0.0)
+  - SQLite.swift (0.11.4):
+    - SQLite.swift/standard (= 0.11.4)
+  - SQLite.swift/standard (0.11.4)
   - SwiftyJSON (3.1.4)
   - XCGLogger (6.0.1):
     - XCGLogger/Core (= 6.0.1)
@@ -17,22 +21,26 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 4.5)
   - IQKeyboardManager
+  - MobilePlayer
   - RxCocoa (~> 4.0)
   - RxSwift (~> 4.0)
   - SnapKit (~> 4.0.0)
+  - SQLite.swift (~> 0.11.4)
   - SwiftyJSON
   - XCGLogger (~> 6.0.1)
 
 SPEC CHECKSUMS:
   Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
   IQKeyboardManager: 593ee99b88381f4b9ccb22bd680f22606351bd41
+  MobilePlayer: 069b13482499f14c25b6ce53f63a91e17975b073
   ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
   RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
   RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
   XCGLogger: b4ca980580108cfeaf221afe158f5d89c1be22e0
 
-PODFILE CHECKSUM: 1b6b63e000c628b1b45b812f2180550d85753841
+PODFILE CHECKSUM: e1e047ba32b1086d19b8ecd806628b8ff8afeed1
 
 COCOAPODS: 1.3.1
