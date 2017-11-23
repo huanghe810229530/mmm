@@ -11,4 +11,5 @@ target 'HuaXia' do
     pod 'RxCocoa',    '~> 4.0'
     pod 'XCGLogger', '~> 6.0.1'
     pod 'MobilePlayer'
+    pod 'SQLite.swift', '~> 0.11.4'
 end
